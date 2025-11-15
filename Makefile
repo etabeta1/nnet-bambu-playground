@@ -3,6 +3,9 @@ TARGET?=
 _TARGET_FIRMWARE_NNET=$(TARGET)/nnet_utils
 
 all:
+ifeq (, $(shell which $(BAMBU)))
+	$(error "Bambu not found")
+endif
 ifeq ($(TARGET),)
 	@echo Testing on all targets
 	@for target in ./firmwares/*/; do [ -d "$$target" ] && make TARGET="$$target"; done
