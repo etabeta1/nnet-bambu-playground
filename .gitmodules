@@ -1,0 +1,3 @@
+[submodule "nnet_utils"]
+	path = nnet_utils
+	url = https://github.com/ferrandi/nnet_utils
