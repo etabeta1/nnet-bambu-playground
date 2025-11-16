@@ -1,0 +1,310 @@
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:34:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+        std::istringstream iss(line);
+                           ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:39:13: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+            std::istringstream(token) >> w[i];
+            ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:62:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+        std::istringstream iss(line);
+                           ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:79:32: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+            std::istringstream structss(token);
+                               ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:107:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+        std::istringstream iss(line);
+                           ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:124:32: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+            std::istringstream structss(token);
+                               ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
+    class basic_istringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:203:28: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
+        std::ostringstream filename;
+                           ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:104:11: note: template is declared here
+    class basic_ostringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
+In file included from ./nnet_utils/nnet_common.h:5:
+./nnet_utils/nnet_helpers.h:233:28: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
+        std::ostringstream filename;
+                           ^
+/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:104:11: note: template is declared here
+    class basic_ostringstream;
+          ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:7:
+In file included from ./nnet_utils/nnet_code_gen.h:4:
+./nnet_utils/nnet_conv1d_latency.h:19:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=data_buf complete dim=0
+                ^
+./nnet_utils/nnet_conv1d_latency.h:22:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=mult complete
+                ^
+./nnet_utils/nnet_conv1d_latency.h:25:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete
+                ^
+./nnet_utils/nnet_conv1d_latency.h:27:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=weights complete
+                ^
+./nnet_utils/nnet_conv1d_latency.h:28:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete
+                ^
+./nnet_utils/nnet_conv1d_latency.h:31:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit
+                ^
+./nnet_utils/nnet_conv1d_latency.h:35:41: error: Unexpected token
+        #pragma HLS PIPELINE II=CONFIG_T::reuse_factor rewind
+                                        ^
+./nnet_utils/nnet_conv1d_latency.h:105:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=mult complete dim=0
+                ^
+./nnet_utils/nnet_conv1d_latency.h:106:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete dim=0
+                ^
+./nnet_utils/nnet_conv1d_latency.h:109:17: warning: Unknown HLS pragma
+    #pragma HLS function_instantiate variable=weights,biases
+                ^
+./nnet_utils/nnet_conv1d_latency.h:112:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_conv1d_latency.h:113:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=weights complete dim=0
+                ^
+./nnet_utils/nnet_conv1d_latency.h:114:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete dim=0
+                ^
+./nnet_utils/nnet_conv1d_latency.h:117:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit
+                ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:10:
+./nnet_utils/nnet_pooling.h:84:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_pooling.h:88:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION function instances=pool_op<data_T, CONFIG_T::pool_width, \
+                ^
+./nnet_utils/nnet_pooling.h:101:25: warning: Unknown HLS pragma
+            #pragma HLS ARRAY_PARTITION variable=pool complete dim=0
+                        ^
+./nnet_utils/nnet_pooling.h:121:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_pooling.h:128:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION function instances=pool_op<data_T, CONFIG_T::pool_width, \
+                ^
+./nnet_utils/nnet_pooling.h:133:21: warning: Unknown HLS pragma
+        #pragma HLS ARRAY_PARTITION variable=pool complete dim=0
+                    ^
+./nnet_utils/nnet_pooling.h:175:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_pooling.h:179:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION function instances=pool_op<data_T, CONFIG_T::pool_height*CONFIG_T::pool_width, \
+                ^
+./nnet_utils/nnet_pooling.h:193:29: warning: Unknown HLS pragma
+                #pragma HLS ARRAY_PARTITION variable=pool complete dim=0
+                            ^
+./nnet_utils/nnet_pooling.h:229:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_pooling.h:233:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION function instances=pool_op<data_T, CONFIG_T::pool_height*CONFIG_T::pool_width, \
+                ^
+./nnet_utils/nnet_pooling.h:247:29: warning: Unknown HLS pragma
+                #pragma HLS ARRAY_PARTITION variable=pool complete dim=0
+                            ^
+./nnet_utils/nnet_pooling.h:295:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_pooling.h:298:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION function instances=pool_op<data_T, CONFIG_T::pool_width * CONFIG_T::pool_height, \
+                ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:11:
+In file included from ./nnet_utils/nnet_pooling_stream.h:7:
+In file included from ./nnet_utils/nnet_conv_stream.h:7:
+In file included from ./nnet_utils/nnet_dense.h:6:
+./nnet_utils/nnet_dense_latency.h:21:17: warning: Unknown HLS pragma
+    #pragma HLS function_instantiate variable=weights,biases
+                ^
+./nnet_utils/nnet_dense_latency.h:26:37: error: Unexpected token
+    #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+                                    ^
+./nnet_utils/nnet_dense_latency.h:29:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete
+                ^
+./nnet_utils/nnet_dense_latency.h:30:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=mult complete
+                ^
+./nnet_utils/nnet_dense_latency.h:31:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete
+                ^
+./nnet_utils/nnet_dense_latency.h:33:17: warning: Unknown HLS pragma
+    #pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::multiplier_limit
+                ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:11:
+In file included from ./nnet_utils/nnet_pooling_stream.h:7:
+In file included from ./nnet_utils/nnet_conv_stream.h:7:
+In file included from ./nnet_utils/nnet_dense.h:7:
+./nnet_utils/nnet_dense_resource.h:28:17: warning: Unknown HLS pragma
+    #pragma HLS function_instantiate variable=weights,biases
+                ^
+./nnet_utils/nnet_dense_resource.h:29:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_RESHAPE   variable=weights block factor=block_factor
+                ^
+./nnet_utils/nnet_dense_resource.h:30:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete
+                ^
+./nnet_utils/nnet_dense_resource.h:33:21: warning: Unknown HLS pragma
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                    ^
+./nnet_utils/nnet_dense_resource.h:37:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete
+                ^
+./nnet_utils/nnet_dense_resource.h:105:17: warning: Unknown HLS pragma
+    #pragma HLS function_instantiate variable=weights,biases
+                ^
+./nnet_utils/nnet_dense_resource.h:106:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_RESHAPE   variable=weights block factor=block_factor
+                ^
+./nnet_utils/nnet_dense_resource.h:107:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete
+                ^
+./nnet_utils/nnet_dense_resource.h:110:21: warning: Unknown HLS pragma
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                    ^
+./nnet_utils/nnet_dense_resource.h:114:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete
+                ^
+./nnet_utils/nnet_dense_resource.h:190:17: warning: Unknown HLS pragma
+    #pragma HLS function_instantiate variable=weights,biases
+                ^
+./nnet_utils/nnet_dense_resource.h:191:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_RESHAPE   variable=weights block factor=block_factor
+                ^
+./nnet_utils/nnet_dense_resource.h:192:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=biases complete
+                ^
+./nnet_utils/nnet_dense_resource.h:195:21: warning: Unknown HLS pragma
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                    ^
+./nnet_utils/nnet_dense_resource.h:199:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable=acc complete
+                ^
+./nnet_utils/nnet_dense_resource.h:212:21: warning: Unknown HLS pragma
+        #pragma HLS ARRAY_PARTITION variable=tmpmult complete
+                    ^
+./nnet_utils/nnet_dense_resource.h:227:21: warning: Unknown HLS pragma
+        #pragma HLS ARRAY_PARTITION variable=mult complete
+                    ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:11:
+In file included from ./nnet_utils/nnet_pooling_stream.h:7:
+./nnet_utils/nnet_conv_stream.h:87:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = data complete
+                ^
+./nnet_utils/nnet_conv_stream.h:89:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = res complete
+                ^
+./nnet_utils/nnet_conv_stream.h:135:43: error: Unexpected token
+        #pragma HLS PIPELINE II = CONFIG_T::reuse_factor
+                                          ^
+./nnet_utils/nnet_conv_stream.h:232:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = shift_buffer complete dim = 0
+                ^
+./nnet_utils/nnet_conv_stream.h:281:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = kernel_data complete
+                ^
+./nnet_utils/nnet_conv_stream.h:284:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = res_out complete dim = 0
+                ^
+./nnet_utils/nnet_conv_stream.h:287:5: warning: Unknown HLS pragma
+    PRAGMA_DATA_PACK(res_pack)
+    ^
+./nnet_utils/nnet_common.h:18:36: note: expanded from macro 'PRAGMA_DATA_PACK'
+#define PRAGMA_DATA_PACK(variable) _Pragma(EXPAND_STRING(DATA_PACK_PRAGMA(variable)))
+                                   ^
+<scratch space>:41:6: note: expanded from here
+ HLS DATA_PACK variable = res_pack
+     ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:11:
+In file included from ./nnet_utils/nnet_pooling_stream.h:7:
+./nnet_utils/nnet_conv_stream.h:348:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = kernel_data complete
+                ^
+./nnet_utils/nnet_conv_stream.h:351:17: warning: Unknown HLS pragma
+    #pragma HLS ARRAY_PARTITION variable = res_out complete dim = 0
+                ^
+./nnet_utils/nnet_conv_stream.h:354:5: warning: Unknown HLS pragma
+    PRAGMA_DATA_PACK(res_pack)
+    ^
+./nnet_utils/nnet_common.h:18:36: note: expanded from macro 'PRAGMA_DATA_PACK'
+#define PRAGMA_DATA_PACK(variable) _Pragma(EXPAND_STRING(DATA_PACK_PRAGMA(variable)))
+                                   ^
+<scratch space>:44:6: note: expanded from here
+ HLS DATA_PACK variable = res_pack
+     ^
+In file included from myproject.cpp:4:
+In file included from ./parameters.h:11:
+./nnet_utils/nnet_pooling_stream.h:9:10: fatal error: 'utils/x_hls_utils.h' file not found
+#include "utils/x_hls_utils.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+52 warnings and 18 errors generated.

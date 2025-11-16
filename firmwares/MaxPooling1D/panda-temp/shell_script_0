@@ -1,0 +1,15 @@
+#!/bin/bash
+ulimit -s 131072
+if [ ! -z "$APPDIR" ]; then
+  export PATH=$(sed -E 's/\/tmp\/.mount[^\:]+\://g' <<< $PATH)
+  export LD_LIBRARY_PATH=$(sed -E 's/\/tmp\/.mount[^\:]+\://g' <<< $LD_LIBRARY_PATH)
+  export PERLLIB=$(sed -E 's/\/tmp\/.mount[^\:]+\://g' <<< $PERLLIB)
+fi
+(cd panda-temp/archives
+ ar x /tmp/.mount_bambuCxTQPY/usr/lib/panda/libbambu_clang16.a || touch error &
+ ar x /tmp/.mount_bambuCxTQPY/usr/lib/panda/libhls-cdiv_clang16.a || touch error &
+ ar x /tmp/.mount_bambuCxTQPY/usr/lib/panda/libhls-divNR_clang16.a || touch error &
+ ar x /tmp/.mount_bambuCxTQPY/usr/lib/panda/libm_clang16.a || touch error &
+ ar x /tmp/.mount_bambuCxTQPY/usr/lib/panda/libsoftfloat_clang16.a || touch error &
+ wait
+ if [ -e "error" ]; then exit -1; fi)  > "panda-temp/shell_output_0" 2>&1 
