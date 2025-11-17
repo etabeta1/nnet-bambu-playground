@@ -1,94 +1,6 @@
 In file included from myproject.cpp:4:
 In file included from ./parameters.h:7:
 In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:34:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-        std::istringstream iss(line);
-                           ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:39:13: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-            std::istringstream(token) >> w[i];
-            ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:62:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-        std::istringstream iss(line);
-                           ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:79:32: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-            std::istringstream structss(token);
-                               ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:107:28: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-        std::istringstream iss(line);
-                           ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:124:32: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
-            std::istringstream structss(token);
-                               ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:100:11: note: template is declared here
-    class basic_istringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:203:28: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
-        std::ostringstream filename;
-                           ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:104:11: note: template is declared here
-    class basic_ostringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
-In file included from ./nnet_utils/nnet_conv1d_latency.h:4:
-In file included from ./nnet_utils/nnet_common.h:5:
-./nnet_utils/nnet_helpers.h:233:28: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
-        std::ostringstream filename;
-                           ^
-/tmp/.mount_bambuCxTQPY/usr/bin/../lib/gcc/x86_64-linux-gnu/8.5.0/../../../../include/c++/8.5.0/iosfwd:104:11: note: template is declared here
-    class basic_ostringstream;
-          ^
-In file included from myproject.cpp:4:
-In file included from ./parameters.h:7:
-In file included from ./nnet_utils/nnet_code_gen.h:4:
 ./nnet_utils/nnet_conv1d_latency.h:19:17: warning: Unknown HLS pragma
     #pragma HLS ARRAY_PARTITION variable=data_buf complete dim=0
                 ^
@@ -281,7 +193,7 @@ In file included from ./nnet_utils/nnet_pooling_stream.h:7:
 ./nnet_utils/nnet_common.h:18:36: note: expanded from macro 'PRAGMA_DATA_PACK'
 #define PRAGMA_DATA_PACK(variable) _Pragma(EXPAND_STRING(DATA_PACK_PRAGMA(variable)))
                                    ^
-<scratch space>:41:6: note: expanded from here
+<scratch space>:43:6: note: expanded from here
  HLS DATA_PACK variable = res_pack
      ^
 In file included from myproject.cpp:4:
@@ -299,7 +211,7 @@ In file included from ./nnet_utils/nnet_pooling_stream.h:7:
 ./nnet_utils/nnet_common.h:18:36: note: expanded from macro 'PRAGMA_DATA_PACK'
 #define PRAGMA_DATA_PACK(variable) _Pragma(EXPAND_STRING(DATA_PACK_PRAGMA(variable)))
                                    ^
-<scratch space>:44:6: note: expanded from here
+<scratch space>:46:6: note: expanded from here
  HLS DATA_PACK variable = res_pack
      ^
 In file included from myproject.cpp:4:
@@ -307,4 +219,4 @@ In file included from ./parameters.h:11:
 ./nnet_utils/nnet_pooling_stream.h:9:10: fatal error: 'utils/x_hls_utils.h' file not found
 #include "utils/x_hls_utils.h"
          ^~~~~~~~~~~~~~~~~~~~~
-52 warnings and 18 errors generated.
+52 warnings and 10 errors generated.

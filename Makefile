@@ -10,7 +10,7 @@ ifeq (, $(shell which $(BAMBU)))
 endif
 ifeq ($(TARGET),)
 	@echo Testing on all targets
-	@for target in ./firmwares/*/; do [ -d "$$target" ] && make TARGET="$$target"; done
+	@for target in ./firmwares/*/; do [ -d "$$target" ] && make TARGET="$$target" || exit 1; done
 else
 	@echo Testing on target $(TARGET)
 	@rm -rf $(_TARGET_FIRMWARE_NNET)
