@@ -29,5 +29,4 @@ As an example, the `firmwares/` tree should look like this:
 
 ## TODOs
 
-- Compare results between original nnet and modified nnet
-
+- make automated simulations, maybe with testbenches
